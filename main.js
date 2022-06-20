@@ -20,6 +20,8 @@ const toDos = [
 
 const completedTasks = toDos.filter(function(completedTasksList){
     return completedTasksList.isCompleted === true;
+}).map(function(completedTasksNames){
+    return completedTasksNames.task;
 });
 
 console.log(completedTasks);
