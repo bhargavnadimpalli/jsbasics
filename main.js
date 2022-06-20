@@ -17,3 +17,7 @@ const toDos = [
         isCompleted: true
     }
 ];
+
+toDos.forEach(function(toDosLoop){
+    console.log(toDosLoop);
+});
