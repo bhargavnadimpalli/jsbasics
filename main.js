@@ -18,8 +18,8 @@ const toDos = [
     }
 ];
 
-const todoTasks = toDos.map(function(tasksList){
-    return tasksList.task;
+const completedTasks = toDos.filter(function(completedTasksList){
+    return completedTasksList.isCompleted === true;
 });
 
-console.log(todoTasks);
+console.log(completedTasks);
