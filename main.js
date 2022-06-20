@@ -18,6 +18,8 @@ const toDos = [
     }
 ];
 
-toDos.forEach(function(toDosLoop){
-    console.log(toDosLoop);
+const todoTasks = toDos.map(function(tasksList){
+    return tasksList.task;
 });
+
+console.log(todoTasks);
