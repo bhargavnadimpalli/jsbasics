@@ -1,3 +1,3 @@
-const addition = (firstNum, SecondNum) => firstNum + SecondNum;
+const addition = firstNum => firstNum + 5;
 
-console.log(addition(2,3));
+console.log(addition(3));
