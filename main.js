@@ -8,4 +8,4 @@ function Person(firstName, LastName, dob){
 //Instantiate Object
 const person1 = new Person('nadimpalli', 'bhargav', '22-11-1998');
 
-console.log(person1);
+console.log(person1.dob);
