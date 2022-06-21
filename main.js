@@ -1,5 +1,5 @@
-function addition(firstNum = 2, secondNum = 2){
-    return firstNum + secondNum;
+const addition = (firstNum, SecondNum) => {
+    return firstNum + SecondNum;
 }
 
-console.log(addition(2,5));
+console.log(addition(2,3));
