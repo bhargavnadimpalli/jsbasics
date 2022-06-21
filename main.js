@@ -1,6 +1,6 @@
-const age = 23;
+const age = 31;
 
-const eligible = age < 30 && age > 18 ? 'eligible' : 'not eligible';
+const eligible = 'not selected';
 
 switch(eligible){
     case 'eligible':
@@ -9,6 +9,10 @@ switch(eligible){
 
     case 'not eligible':
         console.log('you are not eligible');
+        break;
+
+    default:
+        console.log('please select the age');
         break;
 
 }
