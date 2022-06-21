@@ -1,5 +1,5 @@
 function addition(firstNum = 2, secondNum = 2){
-    console.log(firstNum + secondNum);
+    return firstNum + secondNum;
 }
 
-addition();
+console.log(addition(2,5));
