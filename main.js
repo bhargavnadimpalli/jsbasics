@@ -8,4 +8,4 @@ function Person(firstName, LastName, dob){
 //Instantiate Object
 const person1 = new Person('nadimpalli', 'bhargav', '11-22-1998');
 
-console.log(person1.dob);
+console.log(person1.dob.getFullYear());
