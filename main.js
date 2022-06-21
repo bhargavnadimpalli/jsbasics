@@ -1,3 +1,6 @@
-const addition = firstNum => firstNum + 5;
-
-console.log(addition(3));
+//constructor function
+function Person(firstName, LastName, dob){
+    this.firstName = firstName;
+    this.LastName = LastName;
+    this.dob = dob;
+}
