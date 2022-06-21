@@ -1,5 +1,3 @@
-const addition = (firstNum, SecondNum) => {
-    return firstNum + SecondNum;
-}
+const addition = (firstNum, SecondNum) => firstNum + SecondNum;
 
 console.log(addition(2,3));
