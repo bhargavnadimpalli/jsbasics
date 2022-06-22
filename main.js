@@ -3,5 +3,5 @@ const form = document.querySelector('#my-form');
 
 submitBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    form.style.backgroundColor = '#ccc';
+    document.querySelector('body').classList.add('bg-dark');
 });
