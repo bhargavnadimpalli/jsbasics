@@ -9,5 +9,9 @@ form.addEventListener('submit', onsubmit);
 function onsubmit(e) {
     e.preventDefault();
 
-    console.log(nameInput.value);
+    if(nameInput.value === '' || emailInput === '') {
+        alert('please fill the details');
+    } else {
+        alert('sucesss');
+    }
 }
