@@ -1,3 +1,3 @@
 const ul = document.querySelector('.items');
 
-ul.lastElementChild.remove();
+ul.firstElementChild.textContent = 'item text';
