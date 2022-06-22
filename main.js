@@ -1,3 +1,3 @@
 const ul = document.querySelector('.items');
 
-ul.firstElementChild.textContent = 'item text';
+ul.children[1].innerText = 'second item';
