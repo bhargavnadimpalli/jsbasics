@@ -10,8 +10,9 @@ function onsubmit(e) {
     e.preventDefault();
 
     if(nameInput.value === '' || emailInput === '') {
-        alert('please fill the details');
+        message.classList.add('error');
+        message.innerHTML = 'please enter data';
     } else {
-        alert('sucesss');
+        message.innerHTML = 'success';
     }
 }
