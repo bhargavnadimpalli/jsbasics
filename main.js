@@ -1,3 +1,3 @@
-const form = document.querySelectorAll('.item');
+const items = document.querySelectorAll('.item');
 
-console.log(form);
+items.forEach( (item) => console.log(item));
