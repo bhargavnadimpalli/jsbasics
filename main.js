@@ -1,3 +1,5 @@
 const submitBtn = document.querySelector('.btn');
 
-submitBtn.style.background = 'red';
+submitBtn.addEventListener('click', (e) => {
+    console.log('click');
+});
