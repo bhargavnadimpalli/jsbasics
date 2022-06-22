@@ -1,3 +1,3 @@
-const form = document.querySelector('#my-form');
+const form = document.querySelectorAll('.item');
 
 console.log(form);
