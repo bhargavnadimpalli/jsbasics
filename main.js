@@ -1,3 +1,3 @@
-const ul = document.querySelector('.items');
+const submitBtn = document.querySelector('.btn');
 
-ul.children[1].innerHTML = '<span>item 1 child</span>';
+submitBtn.style.background = 'red';
