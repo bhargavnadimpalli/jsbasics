@@ -1,3 +1,3 @@
-const items = document.querySelectorAll('.item');
+const ul = document.querySelector('.items');
 
-items.forEach( (item) => console.log(item));
+ul.remove();
