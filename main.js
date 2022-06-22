@@ -14,6 +14,13 @@ function onsubmit(e) {
         message.innerHTML = 'please enter data';
         setTimeout(() => message.remove(), 3000);
     } else {
-        message.innerHTML = 'success';
+        const li = document.createElement('li');
+        li.appendChild(
+            document.createTextNode(`${nameInput.value} : ${emailInput.value}`)
+        );
+        usersList.appendChild(li);
+
+        nameInput.value = '';
+        emailInput.value = '';
     }
 }
