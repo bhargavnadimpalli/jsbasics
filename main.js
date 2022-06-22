@@ -1,7 +1,13 @@
-const submitBtn = document.querySelector('.btn');
 const form = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const usersList = document.querySelector('#users');
+const message = document.querySelector('.msg');
 
-submitBtn.addEventListener('click', (e) => {
+form.addEventListener('submit', onsubmit);
+
+function onsubmit(e) {
     e.preventDefault();
-    document.querySelector('body').classList.add('bg-dark');
-});
+
+    console.log(nameInput.value);
+}
