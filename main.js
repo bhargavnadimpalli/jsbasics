@@ -12,6 +12,7 @@ function onsubmit(e) {
     if(nameInput.value === '' || emailInput === '') {
         message.classList.add('error');
         message.innerHTML = 'please enter data';
+        setTimeout(() => message.remove(), 3000);
     } else {
         message.innerHTML = 'success';
     }
