@@ -1,3 +1,4 @@
+//form validation
 const form = document.querySelector('#my-form');
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
